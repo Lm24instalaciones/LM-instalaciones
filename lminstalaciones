@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LM Instalaciones | Electricidad, Climatización y Mantenimiento Valencia</title>
+  <meta name="description" content="LM Instalaciones: instalaciones eléctricas, climatización, renovación de aire y mantenimiento profesional en Valencia y alrededores. Presupuestos sin compromiso." />
+  <meta name="keywords" content="instalaciones eléctricas Valencia, climatización Valencia, renovación de aire Valencia, mantenimiento Valencia" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #555555;
+      color: #fff;
+      padding: 45px 20px;
+      text-align: center;
+    }
+    .logo-placeholder {
+      font-size: 36px;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 10px;
+      font-family: Arial, sans-serif;
+    }
+    nav {
+      background-color: #444444;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; }
+    main {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    section {
+      background-color: #fff;
+      padding: 28px;
+      margin-bottom: 25px;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+    h2 { color: #555555; margin-top: 0; }
+    ul { padding-left: 20px; }
+    .cta {
+      background-color: #555555;
+      color: #fff;
+      text-align: center;
+      padding: 30px;
+      border-radius: 6px;
+    }
+    .cta a {
+      display: inline-block;
+      margin-top: 12px;
+      background-color: #25D366;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contacto-info p { margin: 6px 0; font-weight: bold; }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    form button {
+      background-color: #555555;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      font-size: 15px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .trabajos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .trabajo-item {
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      overflow: hidden;
+      text-align: center;
+      background-color: #fafafa;
+      padding: 10px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .trabajo-item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .trabajo-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+    #testimonios p {
+      font-style: italic;
+      margin-bottom: 10px;
+    }
+    @media (max-width: 600px) {
+      nav a { display: block; margin: 10px 0; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-placeholder">LM Instalaciones</div>
+  <p>Electricidad · Climatización · Renovación de Aire · Mantenimiento en Valencia y alrededores</p>
+  <a href="#presupuestos" style="display:inline-block; margin-top:15px; background-color:#25D366; color:#fff; padding:10px 18px; border-radius:4px; text-decoration:none; font-weight:bold;">Presupuesto rápido</a>
+</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#servicios">Servicios</a>
+  <a href="#trabajos">Trabajos realizados</a>
+  <a href="#testimonios">Testimonios</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<main>
+
+<section id="inicio">
+  <h2>Profesionales en instalaciones y mantenimiento en Valencia</h2>
+  <p>En <strong>LM Instalaciones</strong> nos especializamos en instalaciones eléctricas, sistemas de climatización, renovación de aire y trabajos de mantenimiento tanto para particulares como empresas en Valencia y alrededores. Ofrecemos un servicio serio, eficiente y adaptado a normativa vigente.</p>
+</section>
+
+<section id="servicios">
+  <h2>Servicios</h2>
+  <ul>
+    <li>Instalaciones eléctricas en viviendas y locales</li>
+    <li>Climatización: aire acondicionado y sistemas térmicos</li>
+    <li>Renovación y calidad del aire</li>
+    <li>Mantenimiento preventivo y correctivo</li>
+    <li>Reparaciones y mejoras de instalaciones existentes</li>
+  </ul>
+</section>
+
+<section id="trabajos">
+  <h2>Trabajos realizados</h2>
+  <div class="trabajos-grid">
+    <div class="trabajo-item">
+      <img src="https://via.placeholder.com/300x200?text=Proyecto+1" alt="Proyecto 1">
+      <p>Instalación eléctrica completa en vivienda en Valencia</p>
+    </div>
+    <div class="trabajo-item">
+      <img src="https://via.placeholder.com/300x200?text=Proyecto+2" alt="Proyecto 2">
+      <p>Sistema de climatización instalado en oficina</p>
+    </div>
+    <div class="trabajo-item">
+      <img src="https://via.placeholder.com/300x200?text=Proyecto+3" alt="Proyecto 3">
+      <p>Renovación de aire en local comercial</p>
+    </div>
+  </div>
+</section>
+
+<section id="testimonios">
+  <h2>Lo que dicen nuestros clientes</h2>
+  <p>“Rápidos, profesionales y muy atentos. Recomiendo LM Instalaciones 100%.” – Juan P.</p>
+  <p>“Excelente trabajo en climatización, dejaron todo perfecto.” – Marta L.</p>
+</section>
+
+<section id="presupuestos" class="cta">
+  <h2>Presupuesto sin compromiso</h2>
+  <p>Contacta directamente con nosotros y te asesoramos sin compromiso en Valencia y alrededores.</p>
+  <a href="https://wa.me/34651920389" target="_blank">Escríbenos por WhatsApp</a>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <div class="contacto-info">
+    <p>Teléfono: <a href="tel:+34651920389" style="color:inherit; text-decoration:none;">651 920 389</a></p>
+    <p>Email: <a href="mailto:lm24instalaciones@gmail.com" style="color:inherit; text-decoration:none;">lm24instalaciones@gmail.com</a></p>
+    <p>Ubicación: Valencia y alrededores</p>
+  </div>
+
+  <form action="mailto:lm24instalaciones@gmail.com" method="post" enctype="text/plain">
+    <input type="text" name="Nombre" placeholder="Tu nombre" required />
+    <input type="email" name="Email" placeholder="Tu email" required />
+    <textarea name="Mensaje" rows="5" placeholder="Describe brevemente tu necesidad" required></textarea>
+    <button type="submit">Enviar mensaje</button>
+  </form>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 LM Instalaciones · Electricidad, Climatización y Mantenimiento · Valencia y alrededores</p>
+</footer>
+
+</body>
+</html>
